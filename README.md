@@ -1,8 +1,8 @@
-# ⚔️ Consensus — Multi-LLM Debate Tool
+# Consensus: Multi-LLM Debate Tool
 
 A web app that lets you watch AI models debate each other to find consensus. Paste your question, and Claude, GPT-4, and Gemini will discuss, critique each other, and revise their positions.
 
-## 🎯 What It Does
+## What It Does
 
 ```
 You: "How should I structure this database schema?"
@@ -62,7 +62,7 @@ Then open **http://localhost:3000**, paste your API keys, and start debating!
 | GPT-4  | https://platform.openai.com/api-keys |
 | Gemini | https://aistudio.google.com/apikey |
 
-## 💰 Cost Estimate
+## Cost Estimate
 
 Per debate (2 rounds, 3 models):
 - Claude: ~$0.02-0.05
@@ -71,7 +71,7 @@ Per debate (2 rounds, 3 models):
 
 **Total: ~$0.05-0.15 per debate**
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────┐     ┌─────────────────┐
@@ -133,7 +133,7 @@ uv run ruff format .
 - **Flexible model selection**: Use 2 or 3 models
 - **No server-side key storage**: Keys stay in your browser
 
-## 🔮 Future Ideas
+## Future Ideas
 
 - [ ] Save debate history
 - [ ] Export debates as markdown
