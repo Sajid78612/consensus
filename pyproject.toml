@@ -1,0 +1,26 @@
+[project]
+name = "consensus"
+version = "0.1.0"
+description = "Multi-LLM Debate Tool - Watch AI models debate to find consensus"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn>=0.27.0",
+    "httpx>=0.26.0",
+    "pydantic>=2.5.3",
+]
+
+[project.scripts]
+consensus = "consensus.main:run"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.1.0",
+]
